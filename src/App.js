@@ -131,12 +131,12 @@ function Resume() {
         <p className="resume-sub">View or download my resume below</p>
         <div className="resume-frame-wrap">
           <iframe
-            src="Resume.pdf#toolbar=0&navpanes=0&scrollbar=0"
+            src="public/Resume.pdf#toolbar=0&navpanes=0&scrollbar=0"
             title="Resume"
             className="resume-frame"
           />
         </div>
-        <a href="Resume.pdf" download className="btn-primary" style={{ display: 'inline-block', marginTop: '20px' }}>
+        <a href="public/Resume.pdf" download className="btn-primary" style={{ display: 'inline-block', marginTop: '20px' }}>
           ⬇ Download Resume
         </a>
       </div>
